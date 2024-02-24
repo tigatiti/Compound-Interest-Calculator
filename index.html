@@ -12,40 +12,44 @@
         <h1> Compound Interest Calculator </h1>
     </header>
     <main>
-        <section id="Initial_Investment">
+        <section id="investment_data">
             <h3>Investment Data</h3>
             <form id="Initial_Investment-Box">
-                <label for="Initial_Investment">Initial Investment:</label>
-                <input type="number" id="Initial_Investment" name="Initial_Investment" required>
+                <label for="initial_investment">Initial Investment:</label>
+                <input type="number" id="initial_investment" name="Initial_Investment" required>
             </form>
         </section>
 
-        <section id="Monthly_Contribution">
+
+
+        <!---   NEED TO DEBUG 3
+        <section id="monthly_contribution">
             <h3>Monthly Contribution</h3>
             <form id="Monthly_Contribution-Box">
-                <label for="Initial_Investment">Initial Investment:</label>
-                <input type="number" id="Monthly_Contribution" name="Monthly_Contribution" required>
+                <label for="monthly_contribution">Contribution:</label>
+                <input type="number" id="monthly_contribution" name="Monthly_Contribution" required>
             </form>
         </section>
 
+            
+    
+            <section id="length_of_time">
+                <h3>Length of Time (year)</h3>
+                <form id="Length_Of_Time-Box">
+                    <label for="length_of_time">Year:</label>
+                    <input type="number" id="length_of_time" name="Length_Of_Time" required>
+                </form>
+            </section>
+            -->
 
-        <section id="Lenght_Of_Time">
-            <h3>Length of Time (year)</h3>
-            <form id="Lenght_Of_Time-Box">
-                <label for="Lenght_Of_Time">Initial Investment:</label>
-                <input type="number" id="Lenght_Of_Time" name="Lenght_Of_Time" required>
-            </form>
-        </section>
 
-
-    <section id="Result">
-    <p><button type='button' id='calculate'> Calculate </button> </p> 
-
-    <h1>Result</h1>
-    <p>Total Amount: </p>
-    <span id="total_amount"></span> 
-    </section>
-
+            <section id="result">
+                <p><button type="button" id="calculate">Calculate</button></p> 
+                <h2>Result</h2>
+                <p>Total Amount: <span id="total_amount">0</span></p>
+            </section>
+            
+    </main>
     <footer>
         <!-- <p>Simple Budget Website © 2024</p> -->
     </footer>
