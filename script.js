@@ -11,7 +11,7 @@ function Calculate_Function(){
 
 
 
-document.getElementById('calculate').addEventListener('click', Calculate_Function() {
+document.getElementById('calculate').addEventListener('click', function() {
     document.getElementById('total_amount').textContent = Calculate_Function();
 });
 
